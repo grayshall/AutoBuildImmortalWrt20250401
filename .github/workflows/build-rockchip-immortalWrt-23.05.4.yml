@@ -86,7 +86,7 @@ jobs:
               --user root \
               -v "${{ github.workspace }}/bin:/home/build/immortalwrt/bin" \
               -v "${{ github.workspace }}/files:/home/build/immortalwrt/files" \
-              -v "${{ github.workspace }}/rockchip/0402.config:/home/build/immortalwrt/.config" \
+              -v "${{ github.workspace }}/rockchip/0403.config:/home/build/immortalwrt/.config" \
               -v "${{ github.workspace }}/rockchip/23.05.4/build.sh:/home/build/immortalwrt/build.sh" \
               -e PROFILE=$profile \
               -e ROOTFS_PARTSIZE=$rootfs_partsize \
